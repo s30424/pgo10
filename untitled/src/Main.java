@@ -5,22 +5,20 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<Car> cars = new ArrayList<>();
-        cars.add(new Car("Toyota Corolla", 2015));
-        cars.add(new Car("Ford Focus", 2012));
-        cars.add(new Car("Honda Civic", 2018));
-        cars.add(new Car("Chevrolet Malibu", 2016));
-        cars.add(new Car("BMW 3 Series", 2014));
-        cars.add(new Car("Audi A4", 2017));
-        cars.add(new Car("Mazda 3", 2013));
-        cars.add(new Car("Volkswagen Golf", 2011));
-        cars.add(new Car("Hyundai Elantra", 2019));
-        cars.add(new Car("Kia Optima", 2020));
-
-        List<T> Cars;
-        Collections.sort(Cars);
-
+        cars.add(new Car("Porsche", 2015));
+        cars.add(new Car("Ford ", 2012));
+        cars.add(new Car("Honda", 2018));
+        cars.add(new Car("Corvette", 2016));
+        cars.add(new Car("Mercedes", 2014));
+        cars.add(new Car("Lamborghini", 2017));
+        cars.add(new Car("Bugatti", 2013));
+        cars.add(new Car("Volkswagen Passat", 2011));
+        cars.add(new Car("Mustang", 2019));
+        cars.add(new Car("Fs", 2020));
+        Collections.sort(cars);
         for (Car car : cars) {
             System.out.println(car);
         }
+        }
     }
-}
+
